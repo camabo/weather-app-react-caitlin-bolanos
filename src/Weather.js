@@ -35,7 +35,7 @@ export default function Weather() {
           </div>
         </form>
         <div className="today-weather">
-          <i className="bi bi-cloud-snow today-icon"></i>
+          <span class="material-symbols-outlined">weather_snowy</span>
           <h1>{weatherData.city}</h1>
           <h2>{weatherData.date}</h2>
           <h3>{weatherData.description}</h3>
