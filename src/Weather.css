@@ -1,0 +1,35 @@
+.Weather .form-control {
+  border: none;
+}
+
+.Weather .search-button {
+  background-color: #f05454;
+  transition: background-color 0.5s;
+  color: #f5f5f5;
+}
+
+.Weather .search-button:hover {
+  background-color: #30475e;
+  color: #f05454;
+}
+
+.Weather .city-search {
+  padding: 25px;
+}
+
+.Weather .today-weather {
+  text-align: center;
+  color: #30475e;
+  padding: 25px;
+}
+
+.Weather .today-icon {
+  font-size: 50px;
+}
+
+.Weather .week-weather {
+  font-size: 35px;
+  border-radius: 25px;
+  padding: 25px;
+  color: #30475e;
+}
