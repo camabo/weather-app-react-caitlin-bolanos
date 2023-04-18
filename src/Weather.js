@@ -47,6 +47,10 @@ export default function Weather() {
         </div>
         <hr />
       </div>
+      <a href="https://github.com/camabo/weather-app-react-caitlin-bolanos">
+        Open-source code{" "}
+      </a>
+      by Caitlin Bolanos
     </div>
   );
 }
