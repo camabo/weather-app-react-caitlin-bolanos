@@ -1,11 +1,31 @@
-.Weather .form-control {
-  border: none;
+.Weather body,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Sofia Sans", sans-serif;
 }
 
+.Weather .weather-app {
+  padding-top: 25px;
+  border-radius: 25px;
+  background-color: #f5f5f5;
+  max-width: 800px;
+}
+
+.Weather .form-control {
+  border: none;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.Weather .btn-success {
+  font-family: "Sofia Sans", sans-serif;
+}
 .Weather .search-button {
   background-color: #f05454;
   transition: background-color 0.5s;
   color: #f5f5f5;
+  font-family: "Sofia Sans", sans-serif;
 }
 
 .Weather .search-button:hover {
@@ -25,6 +45,14 @@
 
 .Weather .today-icon {
   font-size: 50px;
+}
+
+.Weather hr {
+  border: 2px solid #f05454;
+  border-radius: 25px;
+  color: #f05454;
+  opacity: 100%;
+  margin: 0 auto;
 }
 
 .Weather .week-weather {
