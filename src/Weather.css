@@ -29,7 +29,7 @@
   color: #30475e;
   padding: 25px;
 }
-.Weather .material-symbols-outlined {
+.Weather .today-weather .material-symbols-outlined {
   font-size: 50px;
 }
 
@@ -42,8 +42,9 @@
 }
 
 .Weather .week-weather {
-  font-size: 35px;
-  border-radius: 25px;
-  padding: 25px;
+  font-size: 30px;
+  padding: 20px;
   color: #30475e;
+  text-align: center;
+  opacity: 75%;
 }
